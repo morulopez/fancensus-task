@@ -4,7 +4,7 @@
 Small application in Laravel getting daily exchange rate data from [HMRC](http://www.hmrc.gov.uk/softwaredevelopers/rates/exrates-monthly-0122.XML) and storing it in a database. It also provides a user interface with a search form to retrieve exchange rate information.
 
 ## Setup
-1. Clone the repository: `git clone https://github.com/your/repository.git`
+1. Clone the repository: `git clone https://github.com/morulopez/fancensus-task.git`
 2. Install dependencies: `composer install`
 3. Set up your environment variables in the `.env` file.You must to add `EXCAHNGES_URL_SOURCE=http://www.hmrc.gov.uk/softwaredevelopers/rates/exrates-monthly-0122.XML`.This is used in the cron task for get the data.
 
